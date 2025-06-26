@@ -1,10 +1,10 @@
-import '../styles/BrandCard.css';
+import '../styles/CardBrand.css';
 
  export default function BrandCard(){
     return (
-        <div>
+        <div className='cardBrand'>
           <h1>marca</h1>
-          <p>descripcion de la marca</p>
+          <button>Info!</button>
         </div> 
     )
  }
